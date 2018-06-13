@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>测试</title>
+</head>
+<body>
+{% for img in imglist %}
+<div style="width:400px;height:200px;background: url('{{img.theme_img.url}}')"></div>
+{% endfor %}
+</body>
+</html>
